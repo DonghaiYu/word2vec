@@ -20,7 +20,7 @@ public class Eva {
 		float recall = 0;
 		float F1 = 0;
 		
-		File test = new File(args[0]);
+		File test = new File(args[0]);   
 		File res = new File(args[1]);  
 
 		if(res == null || test == null){

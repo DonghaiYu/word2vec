@@ -9,7 +9,7 @@ public class Test {
 		File test = new File("test/test2/u1.res");
 		if(test == null){
 			System.out.println("null!");
-		}else{
+		}else{  
 			System.out.println("ok");
 		}
 	}
