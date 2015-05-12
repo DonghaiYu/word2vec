@@ -21,7 +21,7 @@ public class Eva {
 		float F1 = 0;
 		
 		File test = new File(args[0]);
-		File res = new File(args[1]);
+		File res = new File(args[1]);  
 
 		if(res == null || test == null){
 			System.out.println("can't find the files,wrong file name or path!");
